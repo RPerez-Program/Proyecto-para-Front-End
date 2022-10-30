@@ -1,0 +1,106 @@
+/* como poner estilos css*/
+
+   
+  /* siempre trabajamos con porcentajes para que se adapte a todos los dispositivos */
+
+
+/* las class peden tener el nombre que que quiera pero simpre que la utilice todas las modificaciones se haran en todos los lugares donde este esa clase */
+
+.list-group{
+  --bs-list-group-bg: transparent;
+
+}
+.fa-brands.fa-instagram.fa-2x.text-white:hover{
+  --bs-text-opacity: 1;
+  color:  #e94ea3 !important;
+}
+.fa-brands.fa-github.fa-2x.text-white:hover{
+  --bs-text-opacity: 1;
+  color: #4ce94c !important;
+}
+.fa-brands.fa-linkedin.fa-2x.text-white:hover{
+  --bs-text-opacity: 1;
+  color: #4c95e9 !important;
+}
+
+section.banner{
+  background-image: url(../img/Music.png);
+  font-family: 'Comic Sans MS';
+  border-radius: 30px;
+  width: 100%;
+  height: auto;
+  /*height: 100vh;*/
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+}
+
+p{
+  font-style: oblique;
+  font-family:'Comic Sans MS';
+}
+
+h3.intro{
+  padding-top: 20%;
+  text-align:right
+}
+
+h2.intro{
+  text-align:right
+}
+
+h4.intro{
+  text-align:right
+}
+
+h3.titulo{
+  text-align:center
+  
+}
+section.presetación{
+  border-radius: 30px;
+  margin: 10px  10px;
+  background-color: #e9e6e3;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+}
+section.experiencia{
+  border-radius: 30px;
+  margin: 10px  10px;
+  background-color: #b6b3b3;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+}
+
+section.educacion{
+  border-radius: 30px;
+  margin: 10px  10px;
+  background-color: #777574;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+}
+
+.imagen_tecnocompro{
+  transition: 400ms;
+  box-shadow:10px 10px 25px 15px #777574;
+
+}
